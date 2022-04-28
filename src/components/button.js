@@ -1,9 +1,10 @@
 import React from "react";
+import '../styles-shets/button.css';
 
 function ButtonFun ({text, isClickButton, setClick }) {
     return(
       <button  
-      className={ isClickButton ? 'click-button' : 'restart-button' }
+      className = { isClickButton ? 'click-button' : 'restart-button' }
       onClick = {setClick} >
         {text}
       </button>

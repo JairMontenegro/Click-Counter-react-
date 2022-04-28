@@ -6,13 +6,13 @@
 
 html,
 body{
- background-color: #ECE5DD;
+background-color: #ECE5DD;
 
 }
 
 .App{
     display: flex;
-    flex:wrap;
+    flex-wrap:wrap;
     align-items: center;
     justify-content: center;
     padding: 10px;
@@ -21,11 +21,22 @@ body{
 .logo-container{
     width: 100%;
     display: flex;
+    flex-direction:row;
     align-items: center;
     justify-content: center;
 }
 
 
 .logo{
-    height: 300px;
+    height: 200px;
+}
+
+.principal-container{
+    min-width:550px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

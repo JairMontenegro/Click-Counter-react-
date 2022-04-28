@@ -1,5 +1,6 @@
 import './App.css';
 import ButtonFun from './components/button';
+import Counter from './components/counter';
 import logocounter  from './images/logo-counter.png';
 
 
@@ -14,23 +15,28 @@ const restartCounter = () => {
 
 
   return (
+    
+
+
     <div className='App'>
       <div className='logo-container'>
       <img className='logo' src={logocounter} alt='logo'/>
       </div>
 
       <div className='principal-container'>
-      
+      <Counter
+      numberOfClicks = "5"
+      />
+
 
       <ButtonFun
       text = 'Click'
       isClickButton = {true}
-      setClick = {setClick}
-      />
+      setClick = {setClick} />
       <ButtonFun
       text ='Reset'
-      isClickButton = {true}
-      setClick = {restartCounter}/>
+      isClickButton = {false}
+      setClick = {restartCounter} />
     
       </div>
     </div>
@@ -39,5 +45,3 @@ const restartCounter = () => {
 
 export default App;
 
-
-// How to incluide imgs with import sentence. 
