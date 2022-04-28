@@ -1,21 +1,25 @@
+import React from 'react';
 import './App.css';
 import ButtonFun from './components/button';
 import Counter from './components/counter';
 import logocounter  from './images/logo-counter.png';
-
+import { useState } from 'react'// to use hooks we ned to import package of react, useStatus allows us add a state to our component 
+// useState one of most used in react 
 
 function App() {
 
+  const [numClicks , setNumClicks] =  useState (0); // this is hook 
+
   const setClick = () => {
-      console.log('click')
-  }
+    setNumClicks  (numClicks + 1);
+  };
 const restartCounter = () => {
-  console.log('restart')
-}
+  setNumClicks(0)
+};
 
 
   return (
-    
+
 
 
     <div className='App'>
@@ -25,7 +29,7 @@ const restartCounter = () => {
 
       <div className='principal-container'>
       <Counter
-      numberOfClicks = "5"
+      numberOfClicks = {numClicks}
       />
 
 
