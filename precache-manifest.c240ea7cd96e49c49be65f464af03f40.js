@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "11acd9eabbad31396a20",
-    "url": "/Click-Counter-react-/static/css/main.3e814e73.chunk.css"
+    "revision": "9045f1c5261761008642",
+    "url": "/Click-Counter-react-/static/css/main.634d0461.chunk.css"
   },
   {
-    "revision": "11acd9eabbad31396a20",
-    "url": "/Click-Counter-react-/static/js/main.11acd9ea.chunk.js"
+    "revision": "9045f1c5261761008642",
+    "url": "/Click-Counter-react-/static/js/main.9045f1c5.chunk.js"
   },
   {
     "revision": "3d978e9a755fb10b1846",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/Click-Counter-react-/static/media/logo-counter.9860f6ac.png"
   },
   {
-    "revision": "16fea2139d2a0c1372cffd3182fdd544",
+    "revision": "9c43406ba6328febd4468960eaec98e3",
     "url": "/Click-Counter-react-/index.html"
   }
 ];
