@@ -4,7 +4,7 @@ import ButtonFun from './components/button';
 import Counter from './components/counter';
 import logocounter  from './images/logo-counter.png';
 import { useState } from 'react'// to use hooks we ned to import package of react, useStatus allows us add a state to our component 
-// useState one of most used in react 
+import Footer from './components/footer.js'  // useState one of most used in react 
 
 function App() {
 
@@ -43,6 +43,7 @@ const restartCounter = () => {
       setClick = {restartCounter} />
     
       </div>
+      <Footer/>
     </div>
   );
 }
