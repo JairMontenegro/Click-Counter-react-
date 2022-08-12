@@ -2,7 +2,7 @@
 
 ![CAPTURE](/Click-counter-react.png "APP SCREENSHOT")
 
-:en:
+:us:
 
 [Click-counter.github.io](https://jairmontenegro.github.io/Click-Counter-react-/ "click to enter")
 
