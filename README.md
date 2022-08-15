@@ -30,7 +30,7 @@ Este es un proyecto que use para aprender react JS.
 
 tiene como objetivo el uso del hook useState, props y sintaxis de desestructuracion.
 
-- La estructura inicla fue creada con el comando `npx-create-react-app`
+- La estructura inicial fue creada con el comando `npx-create-react-app`
 
 ## PARA EJECUTAR LA APLICACION Y EDITAR
 
